@@ -43,6 +43,16 @@ for i in range(0,100):
     if i%2==0:
         print (i+2)
 
+#ex6 remplir la piscine
+longueur=float(input("longueur"))      
+largeur=float(input("largeur"))
+profondeur=float(input("profondeur"))
+debit=float(input("debit par minute"))
+volume=longueur*largeur*profondeur
+print("temps de remplissage",volume/debit,"mn")
+
+
+
            
     
 
