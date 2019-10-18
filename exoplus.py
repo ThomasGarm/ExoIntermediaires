@@ -17,8 +17,11 @@ if age % 2 == 0:
     print ("even age")
 if math.sqrt(age).is_integer():
     print ("square")
-if math.sqrt(age).is_integer():#==False:
+if math.sqrt(age).is_integer()==False:
     print ("not a square")
+#if ValueError:
+    #print ("empty")
+
 
 # ex3 le nombre caché
 print("Cherchez le nombre caché!")
@@ -51,6 +54,24 @@ debit=float(input("debit par minute"))
 volume=longueur*largeur*profondeur
 print("temps de remplissage",volume/debit,"mn")
 
+#ex7 calcul de cercle
+import math
+rayon=int(input("entrez rayon du cercle"))
+raycalc=rayon**2
+aire=math.pi*raycalc
+print(round(aire,2))
+
+#ex8 pyramide
+#bon mais "pas ça"
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
+
+n="*"
+for x in range (0,6):
+    print(x*n)
 
 
            
