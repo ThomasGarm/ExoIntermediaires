@@ -32,7 +32,18 @@ while sn!=inpnum:
        print("plus petit")
        inpnum=int(input("recommence"))  
 if inpnum==sn:
-    print("Bravo")    
+    print("Bravo")  
+
+#ex4 nombre en boucle
+for i in range(0,100):
+    print(i+1)
+
+#ex5 nombre en boucle pair
+for i in range(0,100):
+    if i%2==0:
+        print (i+2)
+
+           
     
 
 
