@@ -17,7 +17,22 @@ if age % 2 == 0:
     print ("even age")
 if math.sqrt(age).is_integer():
     print ("square")
-if math.sqrt(age).is_integer()==False:
+if math.sqrt(age).is_integer():#==False:
     print ("not a square")
-else:
-    print ("no input")
+
+# ex3 le nombre caché
+print("Cherchez le nombre caché!")
+sn=177
+inpnum=int(input("entrez un nombre"))
+while sn!=inpnum:
+    if inpnum<sn:
+       print("plus grand")
+       inpnum=int(input("recommence"))
+    if inpnum>sn:
+       print("plus petit")
+       inpnum=int(input("recommence"))  
+if inpnum==sn:
+    print("Bravo")    
+    
+
+
