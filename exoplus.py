@@ -19,8 +19,8 @@ if math.sqrt(age).is_integer():
     print ("square")
 if math.sqrt(age).is_integer()==False:
     print ("not a square")
-#if ValueError:
-    #print ("empty")
+if str(age)==" ":
+    print ("empty")
 
 
 # ex3 le nombre caché
@@ -70,8 +70,19 @@ print("****")
 print("*****")
 
 n="*"
-for x in range (0,6): #abcisse ?
+for x in range (0,6): 
     print(x*n) #on peut multiplier un carac string
+
+#ex7
+for i in range(0,100):
+    print(i+1)
+    if i%3==0 and not i%5==0:
+       print("FIZZ")
+    if i%5==0 and not i%3==0:
+       print("BUZZ")
+    if i%3==0 and i%5==0:
+        print("FIZZBUZZ")
+   
 
 
            
