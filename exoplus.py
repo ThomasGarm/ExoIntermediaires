@@ -70,8 +70,8 @@ print("****")
 print("*****")
 
 n="*"
-for x in range (0,6):
-    print(x*n)
+for x in range (0,6): #abcisse ?
+    print(x*n) #on peut multiplier un carac string
 
 
            
