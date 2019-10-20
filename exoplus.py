@@ -8,19 +8,21 @@ if a>b and a>c and a>d:
 
 # ex2 condition d'âge
 import math
-age = int(input("entrez votre âge"))
-if age<0:
-    print ("pas possib'")
-if age>=21:
-    print ("authorized access")
-if age % 2 == 0:
-    print ("even age")
-if math.sqrt(age).is_integer():
-    print ("square")
-if math.sqrt(age).is_integer()==False:
-    print ("not a square")
-if str(age)==" ":
-    print ("empty")
+try:
+    age = int(input("entrez votre âge"))
+    if age<0:
+        print ("pas possib'")
+    if age>=21:
+        print ("authorized access")
+    if age % 2 == 0:
+        print ("even age")
+    if math.sqrt(age).is_integer():
+        print ("square")
+    if math.sqrt(age).is_integer()==False:
+        print ("not a square")
+except ValueError:
+    print("no entry")
+
 
 
 # ex3 le nombre caché
