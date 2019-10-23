@@ -49,12 +49,12 @@ for i in range(0,100):
         print (i+2)
 
 #ex6 remplir la piscine
-longueur=float(input("longueur"))      
-largeur=float(input("largeur"))
-profondeur=float(input("profondeur"))
-debit=float(input("debit par minute"))
-volume=longueur*largeur*profondeur
-print("temps de remplissage",volume/debit,"mn")
+def piscine(a, b, c, d):
+    volume=a*b*c/d
+    print (volume)
+piscine(9, 9, 9, 9)
+    
+
 
 #ex7 calcul de cercle
 import math
@@ -64,16 +64,11 @@ aire=math.pi*raycalc
 print(round(aire,2))
 
 #ex8 pyramide
-#bon mais "pas ça"
-print("*")
-print("**")
-print("***")
-print("****")
-print("*****")
+
 
 n="*"
-for x in range (0,6): 
-    print(x*n) #on peut multiplier un carac string
+for i in range (0,6): 
+    print(i*n) #on peut multiplier un carac string
 
 #ex7
 for i in range(0,100):
