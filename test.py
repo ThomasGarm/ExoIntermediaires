@@ -1,14 +1,10 @@
-user=float(input("amount"))
+number=int(input("entrez un nombre"))
+
+def factorielle(num):
+        i=1
+        while num >= i:
+            print(num*i)
+            i+=1
 
 
-def even(mynumber):
-        round(mynumber,0)
-        if mynumber% 2 ==0 :
-           print("even")
-        if not mynumber% 2 == 0:
-           print("not even")
-
-
-even(user)
-        
-
+factorielle(number)               
