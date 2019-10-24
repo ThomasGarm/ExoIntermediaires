@@ -10,39 +10,54 @@
 
 
 #exercice2: Matrix dans le terminal
-#list=[0, 0, 0, 0]
-#for i in range(0, 4):
- #   list[i]=1
-#print ("{}".format(list[0],"------",list[1])
+list=[0, 0, 0, 0]
+tiret="------"
+for i in range(0, 4):
+    list[i]=1
+    print ("{}\n{}\n{}\n{}\n".format(list[0],list[1],list[2],list[3]))
+    list[i]=0
+
     
-
-
-
-
+#=====================================================
 #exercice 3: nombre pair ?
 
 user=float(input("amount"))
 
 
 def even(mynumber):
-        round(mynumber,0)
-        if mynumber% 2 ==0 :
-           print("even")
-        if not mynumber% 2 == 0:
-           print("not even")
+    
+    round(mynumber)
+        
+    if mynumber% 2 ==0 :
+       print("even")
+    if not mynumber% 2 == 0:
+        print("not even")
 
 
 even(user)
 
+
+#======================================================
 #exercice4: factorielle
-number=int(input("entrez un nombre"))
+
+number=(input("enter number"))
 
 def factorielle(num):
+        num=int(num)
         i=1
+    
         while num >= i:
-            print(num*i)
-            i+=1
+              print(num*i)
+              i+=1
+        
 
 
 factorielle(number) 
+
+
+
+#=======================================================
+#exercice5: les tirets ça compte!
+
+
 

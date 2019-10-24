@@ -1,10 +1,9 @@
-number=int(input("entrez un nombre"))
+def facturation(tiret):
+        tiret=[]
+        i="-"
+        j="\_"
+        for i in tiret:
+                tiret.replace('i','j')
 
-def factorielle(num):
-        i=1
-        while num >= i:
-            print(num*i)
-            i+=1
-
-
-factorielle(number)               
+facture="---------"
+facturation(facture)
