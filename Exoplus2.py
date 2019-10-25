@@ -90,6 +90,35 @@ humain(liste)
 #======================================================
 #exercice8: le max d'un tableau:
 
+liste=[1,2,3,4,5]
+
+def maximus(liste):
+        print(max(liste))
+
+maximus(liste) 
+
+#plus loin:
+
+
+#======================================================
+#exercice9: to do liste:
+
+def todolist(liste):
+        user=""
+
+        while user!="fin":
+                user=input("to do: ")
+                
+                if user=="fin":
+                   break
+                
+                liste.append(user)
+                
+        print(liste)
+
+liste=[]
+todolist(liste)
+
 
 
 

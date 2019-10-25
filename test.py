@@ -1,11 +1,21 @@
+def todolist(liste):
+        user=""
+
+        while user!="fin":
+                user=input("to do: ")
+                
+                if user=="fin":
+                   break
+                
+                liste.append(user)
+                
+        print(liste)
+
+liste=[]
+todolist(liste)                
 
 
-def humain(liste):
-        for i in range (len(liste)):
-                print(liste[i])
 
-liste=["thomas","Win", "33ans","séduisant"]        
-humain(liste)
 
 
 
