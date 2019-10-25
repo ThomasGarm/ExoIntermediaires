@@ -59,5 +59,38 @@ factorielle(number)
 #=======================================================
 #exercice5: les tirets ça compte!
 
+def facturation(tiret):
+        tiret=tiret.replace('-','\_')
+        print(tiret)
+    
+        
+facture=("--------")
+print(facture)
+facturation(facture)
+
+#======================================================
+#exercice6: entrainez vous avec les tableaux.
+
+list=["aubergine","patate","banane","melon","PQ","yahourt"]
+
+print("acheter",list[0],"aussi du",list[4],"puis",list[-1],".")
+
+
+#======================================================
+#exercice7: le tableau d'un HUMAIN:
+
+def humain(liste):
+        for i in range (len(liste)):
+                print(liste[i])
+
+liste=["thomas","Win", "33ans","séduisant"]        
+humain(liste)
+
+
+#======================================================
+#exercice8: le max d'un tableau:
+
+
+
 
 
